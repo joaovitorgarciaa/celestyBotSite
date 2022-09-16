@@ -117,6 +117,9 @@ main #maindoor {
 
 
 /* LISTAS - FONTES */
+
+
+
 .sobre {
     display: flex;
     margin-top: 300px;
@@ -126,7 +129,7 @@ main #maindoor {
 
     border-radius: 8px;
     padding: 30px;
-    padding-bottom: 65px;
+    padding-bottom: 80px;
 }
 
 .sobre-font {
@@ -242,11 +245,11 @@ section:nth-child(5) {
 
 }
 
-  main section#maindoor:hover{
+  .celesty-img #img:hover{
     transform: scale(1.1);
 }
 
-  main section#maindoor {
+  .celesty-img #img {
     transition: transform .4s;
 }
 
