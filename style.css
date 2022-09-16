@@ -1,0 +1,265 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'inter', sans-serif;
+    color: white;
+  
+  
+    
+}
+
+.clear: {
+  clear: both;
+}
+
+
+body {
+    background-image: url(./assets/capa.png);
+    background-position:top center;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-color: #1d1834;
+    background-opacity: 10%;
+    background: linear-gradient(180deg, #aa52a7  0%, #653464 100%) repeat none;
+}
+
+
+
+body, html {
+  height: 100%;
+}
+
+header div img {
+    border-radius: 50%;
+    display: flex;
+    margin: auto;
+    margin-bottom: 130px;
+    margin-left: 64px;
+    margin-top: 32px;
+}
+
+header nav {
+    max-width: 1280px;
+    position: relative;
+    top: 15px;
+    background: #181818;
+    padding: 8px;
+    margin:0 auto;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: -4px 3px 20px -6px rgba(0,0,0,0.7);
+}
+
+header ul {
+    list-style-position: inside;
+}
+
+header ul li {
+    position: relative;
+    width: calc(100% / 3);
+    margin-left: -3px;
+    text-transform: lowercase;
+    display: inline-block;
+    color: white;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 8px 8px 8px 8px;
+    transition: 0.3s;
+}
+
+header ul li:hover { 
+  border-bottom: 1px solid #bc63b8;
+}
+
+main {
+    width: 100%;
+    max-width: 1280px;
+}
+
+main #maindoor {
+  width: 70%;
+  padding-bottom: 40px;
+  backgound: #151515;
+  margin-bottom: 40px;
+}
+
+
+/* IMG FLOATING */
+
+.celesty-img {
+  display: inline-block;
+  width: 20%;
+  float: left;
+}
+
+.celesty-img #img {
+  background: url(./assets/chibbi.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 436px;
+  height: 436px;
+  background-size: 70% 70%;
+  animation: float 3s ease-in-out infinite;
+  margin-bottom: 150px;
+  padding-top: 300px;
+}
+
+.celesty-text {
+  display: inline-block;
+  width: 80%;
+  float: right;
+}
+
+
+
+
+
+/* LISTAS - FONTES */
+.sobre {
+    display: flex;
+    margin-top: 300px;
+    padding-left: 150px auto;
+    margin-right: 40px;
+    font-size: 30px;
+
+    border-radius: 8px;
+    padding: 30px;
+    padding-bottom: 65px;
+}
+
+.sobre-font {
+      font-size: 20px;
+}
+
+section ul.comandos {
+    color: white;
+    background-color: #2A2634;
+    padding: 32px;
+    padding-top: 24px;
+    border-radius: 8px;
+
+
+    padding-top: 4px;
+    border-radius: 10px;
+
+}
+
+section ul.comandos {
+    background-color: #2A2634;
+    padding: 32px;
+    padding-top: 24px;
+    border-radius: 8px;
+}
+
+section ul.function {
+    background-color: #2A2634;
+    padding: 32px;
+    padding-top: 24px;
+    border-radius: 8px;
+    font-size: 24px;
+    
+}
+
+.func-font {
+      font-size: 20px;
+}
+
+.comandos {
+    display: flex; 
+    font-size: 30px;
+    padding-left: 5px;
+    background-color: #2A2634;
+    border-radius: 4px;
+    align-items: center;
+    
+}
+
+.comandos-font {
+      font-size: 20px;
+}
+
+
+.equipe {
+      display: flex;
+      background-color: #2A2634;
+    padding: 32px;
+    padding-top: 24px;
+    border-radius: 8px;
+    font-size: 22px;
+}
+
+.equipe-font {
+  font-size: 18px;
+}
+
+
+
+
+
+
+/* GRADIENT LI */
+section:nth-child(3) {
+    color: white;
+
+    background-image: linear-gradient(90deg, #9572FC 0%, #43E7AD 50.52%, #6801ad 100%);
+    padding-top: 6px;
+    border-radius: 10px;
+}
+
+section:nth-child(4) {
+    color: white;
+
+    background-image: linear-gradient(90deg, #e3db77 0%, #b47784 50.52%, #90278e 100%);
+    padding-top: 6px;
+    border-radius: 10px;
+    margin-top: 92px;
+}
+
+
+
+section:nth-child(5) {
+    color: white;
+
+    background-image: linear-gradient(90deg, #d7d1e0 0%, #a88cd3 50.52%, #7445b5 100%);
+    padding-top: 6px;
+    border-radius: 10px;
+    margin-top: 92px;
+}
+
+/* float animation */
+@keyframes float {
+	0% {
+		transform: translatey(0px);
+	}
+	50% {
+		transform: translatey(-20px);
+	}
+	100% {
+		transform: translatey(0px);
+	}
+
+}
+
+  main section#maindoor:hover{
+    transform: scale(1.1);
+}
+
+  main section#maindoor {
+    transition: transform .4s;
+}
+
+
+
+/* OUTROS */
+
+section:nth-child(5) {
+    display: flex;
+      align-items: center;
+    align-content: center;
+    text-align: center;
+      align-tracks: center;
+  margin-left: 150px;
+}
+
